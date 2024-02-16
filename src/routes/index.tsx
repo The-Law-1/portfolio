@@ -1,12 +1,16 @@
+import NotFound from "@/pages/404";
 import Index from "@/pages/Index";
-import {  createHashRouter } from "react-router-dom";
+import {  createBrowserRouter, createHashRouter } from "react-router-dom";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Index/>,
   },
-  // 404 page!
-]);
+  {
+    path: "*",
+    element: <NotFound />
+  }
+], {basename: '/portfolio/'});
 
 export default router;
