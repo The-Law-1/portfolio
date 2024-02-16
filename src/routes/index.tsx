@@ -1,6 +1,6 @@
 import NotFound from "@/pages/404";
 import Index from "@/pages/Index";
-import {  createBrowserRouter, createHashRouter } from "react-router-dom";
+import {  createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
