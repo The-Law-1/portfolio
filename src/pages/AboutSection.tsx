@@ -38,7 +38,7 @@ export default function AboutSection() {
           </div>
 
           <div className="text-center md:text-justify  md:w-1/3 text-sm md:text-lg  mb-5 pl-5">
-            Hello! I'm Gabriel Griffin. I'm a developer from Ireland.<br/>
+            Hello! I'm Gabriel Griffin. A developer from Ireland.<br/>
             I love playing around with satisfying web interfaces, and I'm always looking for new technologies to learn and use.<br/>
             Sometimes, projects choose the stack for me and I roll with it.
             Most of the time I'm writing code, or playing sports!
