@@ -7,7 +7,7 @@ export default ({ mode }:any) => {
   process.env = {...process.env, ...loadEnv(mode, process.cwd())};
 
   return defineConfig({
-    base: "/portfolio/",
+    // base: "/portfolio/",
   
     plugins: [
       react(),

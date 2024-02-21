@@ -11,6 +11,6 @@ const router = createBrowserRouter([
     path: "*",
     element: <NotFound />
   }
-], {basename: '/portfolio/'});
+] /*, {basename: '/portfolio/'}*/);
 
 export default router;
