@@ -84,11 +84,6 @@ export default function AboutSection() {
             <div className=" w-14 hover:scale-[102%]">
               <PythonSVG  />
             </div>
-
-
-            <div className=" w-14 hover:scale-[102%]">
-              <GitSVG  />
-            </div>
           </div>
 
         </div>
