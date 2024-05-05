@@ -9,7 +9,6 @@ export default function NotFound () {
         <p className="text-xl">There's nothing here!</p>
 
         <Link to={"/"} className="text-xl font-bold underline">Back to main page</Link>
-        {/* <RouterLink to="/" class="text-xl font-bold underline">Volver al inicio</RouterLink> */}
       </div>
     </div>
   )
